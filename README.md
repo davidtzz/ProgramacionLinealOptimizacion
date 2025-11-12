@@ -10,9 +10,9 @@ Permite al usuario ingresar una función objetivo y un conjunto de restricciones
 
 El propósito de este programa es **visualizar y resolver problemas de maximización** de funciones lineales sujetas a restricciones lineales de la forma:
 
-**Maximizar:**Z = c₁x₁ + c₂x₂
+**Maximizar:** Z = c₁x₁ + c₂x₂
 
-**Sujeto a:**a₁x₁ + a₂x₂ ≤ bx₁, x₂ ≥ 0
+**Sujeto a:** a₁x₁ + a₂x₂ ≤ bx₁, x₂ ≥ 0
 
 El método gráfico es ideal para problemas de **dos variables**, ya que permite **representar geométricamente** la región factible y observar cómo se determina el punto óptimo.
 
@@ -41,11 +41,25 @@ El método gráfico es ideal para problemas de **dos variables**, ya que permite
 
 ### Entrada:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Ingrese los coeficientes de la función objetivo (c1 c2): 3 5  ¿Cuántas restricciones desea ingresar?: 2  Restricción 1: formato -> a1 a2 <= b  Ingrese los valores a1 a2 b: 1 2 8  Restricción 2: formato -> a1 a2 <= b  Ingrese los valores a1 a2 b: 3 2 12   `
+Ingrese los coeficientes de la función objetivo (c1 c2): 3 5
+
+¿Cuántas restricciones desea ingresar?: 2
+
+Restricción 1: formato -> a1 a2 <= b
+
+Ingrese los valores a1 a2 b: 1 2 8
+
+Restricción 2: formato -> a1 a2 <= b
+
+Ingrese los valores a1 a2 b: 3 2 12
 
 ### Salida:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ========== RESULTADO ==========  R/ x1 = 0.00, x2 = 4.00  Valor óptimo de Z = 20.00   `
+\========== RESULTADO ==========
+
+R/ x1 = 0.00, x2 = 4.00
+
+Valor óptimo de Z = 20.00
 
 ### Gráfica generada:
 
