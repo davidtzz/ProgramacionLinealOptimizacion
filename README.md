@@ -1,11 +1,11 @@
-📈 Método Gráfico de Programación Lineal (Forma Estándar)
+Método Gráfico de Programación Lineal (Forma Estándar)
 =========================================================
 
 Este proyecto implementa un **solucionador de problemas de Programación Lineal** con **dos variables**, utilizando el **método gráfico**.
 
 Permite al usuario ingresar una función objetivo y un conjunto de restricciones en **forma estándar**, y muestra tanto el resultado numérico como la **representación gráfica** de la región factible y el punto óptimo.
 
-🎯 Objetivo del Proyecto
+Objetivo del Proyecto
 ------------------------
 
 El propósito de este programa es **visualizar y resolver problemas de maximización** de funciones lineales sujetas a restricciones lineales de la forma:
@@ -16,12 +16,12 @@ El propósito de este programa es **visualizar y resolver problemas de maximizac
 
 El método gráfico es ideal para problemas de **dos variables**, ya que permite **representar geométricamente** la región factible y observar cómo se determina el punto óptimo.
 
-⚙️ Características Principales
+Características Principales
 ------------------------------
 
-*   💡 **Entrada interactiva:** el usuario ingresa la función objetivo y las restricciones.
+*   **Entrada interactiva:** el usuario ingresa la función objetivo y las restricciones.
     
-*   📊 **Visualización completa:**
+*   **Visualización completa:**
     
     *   Gráficas de todas las restricciones.
         
@@ -31,12 +31,12 @@ El método gráfico es ideal para problemas de **dos variables**, ya que permite
         
     *   **Punto óptimo** marcado en rojo.
         
-*   🧮 **Cálculo automático** del punto de intersección y valor máximo de la función objetivo.
+*   **Cálculo automático** del punto de intersección y valor máximo de la función objetivo.
     
-*   ✅ **Forma estándar:** solo admite problemas de **maximización** con restricciones del tipo ≤.
+*   **Forma estándar:** solo admite problemas de **maximización** con restricciones del tipo ≤.
     
 
-🧠 Ejemplo de Ejecución
+Ejemplo de Ejecución
 -----------------------
 
 ### Entrada:
@@ -72,19 +72,19 @@ Valor óptimo de Z = 20.00
 *   El **punto óptimo** en rojo.
     
 
-🖥️ Tecnologías Utilizadas
+Tecnologías Utilizadas
 --------------------------
 
-*   🐍 **Python 3**
+*   **Python 3**
     
-*   📘 **Sympy** — para resolver sistemas de ecuaciones lineales.
+*   **Sympy** — para resolver sistemas de ecuaciones lineales.
     
-*   📊 **Matplotlib** — para la representación gráfica y sombreado.
+*   **Matplotlib** — para la representación gráfica y sombreado.
     
-*   🔢 **NumPy** — para manejo de cálculos y matrices numéricas.
+*   **NumPy** — para manejo de cálculos y matrices numéricas.
     
 
-⚡ Ejecución
+Ejecución
 -----------
 
 1.  pip install numpy sympy matplotlib
@@ -92,7 +92,7 @@ Valor óptimo de Z = 20.00
 2.  python pl\_forma\_estandar\_sombreado\_correcto.py
     
 
-👥 Autores
+Autores
 ----------
 
 **Desarrollado por:**
@@ -102,7 +102,7 @@ Valor óptimo de Z = 20.00
 *   Jhon Alejandro García Pareja
     
 
-🧩 Próximas Etapas
+Próximas Etapas
 ------------------
 
 Este proyecto forma parte de una serie de entregas progresivas en las que se incluirán:
